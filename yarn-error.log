@@ -1,0 +1,93 @@
+Arguments: 
+  /root/workspace/node-v18.14.2-linux-x64/bin/node /root/workspace/node-v18.14.2-linux-x64/bin/yarn add network-timeout 600000
+
+PATH: 
+  /root/workspace/node-v18.14.2-linux-x64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Users/zhanhc/AppData/Local/Microsoft/WindowsApps:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/d/IDE/python/Scripts:/mnt/d/IDE/python:/mnt/d/Git/cmd:/mnt/d/IDE/MinGW/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/zhanhc/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/zhanhc/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/IDE/Microsoft VS Code/bin:/mnt/c/Users/zhanhc/PyCharm Community Edition 2022.3.2/bin:/mnt/d/IDE/python/Scripts:/mnt/d/IDE/python:/mnt/d/IDE/MinGW/mingw64/bin:/mnt/d/IDE/CLion/CLion 2023.1/bin:/mnt/d/IDE/WebStorm 2023.1/bin:/mnt/c/Users/zhanhc/AppData/Local/Microsoft/WindowsApps:/mnt/d/IM-NEXT/node_modules/.bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/network-timeout: Not found
+      at params.callback [as _callback] (/root/workspace/node-v18.14.2-linux-x64/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/root/workspace/node-v18.14.2-linux-x64/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/root/workspace/node-v18.14.2-linux-x64/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/root/workspace/node-v18.14.2-linux-x64/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "IM",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": ".",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "export": "next export",
+      "lint": "next lint",
+      "fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+      "test": "jest"
+    },
+    "dependencies": {
+      "antd": "^4.24.8",
+      "axios": "^1.2.0",
+      "jest-sonar-reporter": "^2.0.0",
+      "next": "13.0.4",
+      "react": "18.2.0",
+      "react-bootstrap": "^2.7.2",
+      "react-dom": "18.2.0",
+      "react-router-dom": "^6.10.0",
+      "video-react": "^0.16.0",
+      "websocket-ts": "^1.1.1"
+    },
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^13.0.0",
+      "@testing-library/user-event": "^13.2.1",
+      "@types/jest": "^29.2.0",
+      "@types/node": "^16.7.13",
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "@types/video-react": "^0.15.1",
+      "@typescript-eslint/eslint-plugin": "^5.41.0",
+      "@typescript-eslint/parser": "^5.41.0",
+      "eslint": "8.28.0",
+      "eslint-config-next": "13.0.4",
+      "eslint-import-resolver-alias": "^1.1.2",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-react": "^7.31.11",
+      "jest": "^29.3.1",
+      "jest-environment-jsdom": "^29.3.1",
+      "localforage": "^1.10.0",
+      "match-sorter": "^6.3.1",
+      "next-router-mock": "^0.9.3",
+      "react-scripts": "5.0.1",
+      "sort-by": "^1.2.0",
+      "ts-jest": "^29.0.3",
+      "typescript": "4.9.3",
+      "web-vitals": "^2.1.0"
+    },
+    "browser": {
+      "tls": false,
+      "net": false
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
